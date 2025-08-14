@@ -11,14 +11,16 @@ Este proyecto es una automatización de pruebas para la aplicación móvil "The 
 - `bin/`, `build/`, `target/`: Carpetas generadas por el proceso de construcción y pruebas.
 
 ## Requisitos
-- Java 8 o superior
-- Gradle
+- Java 11.0.27
+- Gradle 8.14
 - Un emulador o dispositivo Android para ejecutar las pruebas
+- Appium v2.19.0
+- Universal Adb Driver
 
 ## Instalación
 1. Clona el repositorio:
    ```sh
-   git clone <url-del-repositorio>
+   git clone https://github.com/YilmarHoyos/retoMovilConSuBanco
    ```
 2. Ingresa al directorio del proyecto:
    ```sh
@@ -45,4 +47,4 @@ Los reportes de pruebas se generan en la carpeta `build/reports/tests/test` y lo
 4. Envía un pull request.
 
 ## Licencia
-Este proyecto es propiedad de Consubanco. Uso interno y educativo.
+Este proyecto es propiedad de Yilmar Hoyos. Uso interno y educativo.
